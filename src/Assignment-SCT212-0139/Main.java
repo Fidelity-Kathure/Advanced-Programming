@@ -18,9 +18,6 @@ public class Main {
         // Test reversal of withdrawal
         withdrawal.reverse(account);
 
-        // Try to reverse deposit
-        deposit.reverse(account);
-
         System.out.println("Final Balance: " + account.getBalance());
     }
 }
