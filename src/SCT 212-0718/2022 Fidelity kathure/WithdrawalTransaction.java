@@ -1,10 +1,5 @@
 import java.util.Calendar;
 
-/**
- * WithdrawalTransaction represents a transaction where an amount is withdrawn from a bank account.
- * - The amount for the withdrawal must be greater than 0.
- * - The transaction should only be applied if sufficient funds are available.
- */
 public class WithdrawalTransaction extends BaseTransaction {
 
     /**

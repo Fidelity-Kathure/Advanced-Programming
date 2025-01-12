@@ -1,13 +1,7 @@
 import java.util.Calendar;
 
-/**
- * BaseTransaction represents a financial transaction with details such as amount, date, and a unique transaction ID.
- * This class provides methods to retrieve transaction details and apply the transaction to a bank account.
- *
- * - The amount of the transaction must be a valid positive number (>= 0).
- * - The date must not be null and should accurately reflect the time of the transaction.
- * - The transaction ID must be unique for each transaction.
- */
+
+ 
 public class BaseTransaction implements TransactionInterface {
     protected double amount;  // The amount for this transaction
     protected Calendar date;  // The date this transaction occurred

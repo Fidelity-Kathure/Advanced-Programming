@@ -1,11 +1,8 @@
 import java.util.Calendar;
 
-/**
- * DepositTransaction represents a transaction where an amount is deposited into a bank account.
- * This class extends BaseTransaction to provide specific behavior for deposit transactions.
- *
- * - The amount for the deposit must be greater than 0.
- */
+
+
+
 public class DepositTransaction extends BaseTransaction {
 
     /**
